@@ -38,7 +38,7 @@ func main() {
 	anaconda.SetConsumerSecret(config.ConsumerSecret)
 	api := anaconda.NewTwitterApi(config.AccessToken, config.AccessTokenSecret)
 	v := url.Values{}
-	v.Set("follow", "719061282") //2382246067
+	v.Set("follow", "**********") //set his ID
 	stream := api.PublicStreamFilter(v)
 	for {
 		select {
