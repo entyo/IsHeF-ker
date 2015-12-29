@@ -1,2 +1,2 @@
-# -
-My first twitter bot
+# Goははやくてつよい
+This is my first twitter bot
